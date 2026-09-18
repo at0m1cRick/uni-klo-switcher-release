@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>UniKloSwitcher Updates</title>
+        <link>https://raw.githubusercontent.com/at0m1cRick/uni-klo-switcher-release/main/appcast.xml</link>
+        <description>Most recent updates for UniKloSwitcher keyboard switcher.</description>
+        <language>en</language>
+        <item>
+            <title>UniKloSwitcher 1.0.2</title>
+            <sparkle:version>1.0.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 18 Sep 2026 08:08:50 +0000</pubDate>
+            <enclosure
+                url="https://github.com/at0m1cRick/uni-klo-switcher-release/releases/download/v1.0.2/UniKloSwitcher-1.0.2.zip"
+                sparkle:edSignature="F8gRALVjO4UwKFIMVjoGVMY/8+nF5O3vxk7uX5TczFndtii7LYw6WgAJMuAX3CBSjw6g7Z5SUFMyQxaTDpSrCw=="
+                length="1890528"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
