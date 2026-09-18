@@ -17,5 +17,17 @@
                 length="1890528"
                 type="application/octet-stream" />
         </item>
+        <item>
+            <title>UniKloSwitcher 1.0.3</title>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 18 Sep 2026 08:38:16 +0000</pubDate>
+            <enclosure
+                url="https://github.com/at0m1cRick/uni-klo-switcher-release/releases/download/v1.0.3/UniKloSwitcher-1.0.3.zip"
+                sparkle:edSignature="ftnxM/l9kMM2NpS269PxXu87EJ82CrA4Fxb0KCywDKhfi6ZMab/AbhWOxntSa35zLyUitRavlcJCfqiRqpJBAA=="
+                length="2016079"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
