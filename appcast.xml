@@ -243,5 +243,31 @@
                 length="2040326"
                 type="application/octet-stream" />
         </item>
+        <item>
+            <title>UniKloSwitcher 1.3.29</title>
+            <sparkle:version>1.3.29</sparkle:version>
+            <sparkle:shortVersionString>1.3.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 19 Sep 2026 19:16:18 +0000</pubDate>
+            <description><![CDATA[<h4>Added</h4>
+<ul>
+<li>Contextual chaining for short words and prepositions (`ShortWords` registry for RU and EN): mistyped short words (e.g. «nj » → «то ») and single-letter prepositions («d » → «в ») are safely held as candidates and converted together when confirmed by the following word («nj есть» → «то есть», «d дороге» → «в дороге», «шт the» → «in the»).</li>
+<li>Bidirectional chaining support across Russian and English layouts.</li>
+</ul>
+<h4>Fixed</h4>
+<ul>
+<li>False auto-switch triggers and keystroke corruption when typing valid Russian words:</li>
+<li>Keys carrying Cyrillic letters that map to punctuation on US layout (б, ю, ж, э, х, ъ) no longer leak Cyrillic letters into the destination accumulation buffer.</li>
+<li>Added strict guards preventing word self-conversion (`rawWord != dstWord`) and requiring distinct scripts (`rawScript != dstScript`).</li>
+<li>Active and target layouts are now resolved directly from the physically typed script on screen.</li>
+<li>Backspacing immediately after an uncommitted short word now safely resets the preposition chain buffer.</li>
+<li>Settings → About: fixed 3D keycap hover animation jitter and jumpy transitions when entering/leaving with the mouse (stationary hit-testing boundary and spring-interpolated tilt and lift).</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/at0m1cRick/uniKloSwitcher-app/releases/download/v1.3.29/UniKloSwitcher-1.3.29.zip"
+                sparkle:edSignature="z51UWl+LAmlxk6r7zMLHCW87yTIPcuCDuqRF8zaRDWugNhUGhreawKX4fX8ZW3ki7LLyWViayGNgTrvRyePGBA=="
+                length="2041093"
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
